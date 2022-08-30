@@ -1,0 +1,135 @@
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #FAFAFA;
+}
+.yourService{
+    width:1222px;
+    height: 678px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.serviceContent{
+    width: 496px;
+    height: 534px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.roadAssistance{
+    display: flex;
+    align-items: center;
+}
+.roadAssistance h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #9C9C9C;
+    margin-left: 10px;
+}
+
+.serviceHeader h3{
+    margin-top: 8px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.serviceContent .serviceDetails p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    margin-top: 16px;
+}   
+
+.serviceIconsContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+/* -------------Towing-------------- */
+.towing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 40px;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+}
+.serviceicon{
+    display: flex;
+    align-items: center;
+}
+.towing p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+/* -----------------Police Service--------------- */
+.policeService{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 144px;
+    height: 40px;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+.serviceicon{
+    display: flex;
+    align-items: center;
+}
+.policeService p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+
+/* -----------------Mechanical Service--------------- */
+.mechanicalService{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 174px;
+    height: 40px;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+.serviceicon{
+    display: flex;
+    align-items: center;
+}
+.mechanicalService p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+/* -----------------Medical Care--------------- */
+.medicalCare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 138px;
+    height: 40px;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+.serviceicon{
+    display: flex;
+    align-items: center;
+}
+.medicalCare p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 8px;
+}

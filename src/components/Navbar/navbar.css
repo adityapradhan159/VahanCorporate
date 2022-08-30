@@ -1,0 +1,32 @@
+.navbar{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.navbarContainer{
+    width: 1222px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.downloadAndGetStarted{
+    display: flex;
+    align-items: center;
+}
+.downloadAndGetStarted p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 48px;
+}
+.downloadAndGetStarted button{
+    width: 125px;
+    height: 43px;
+    border-radius: 30px;
+    background-color: #000080;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}

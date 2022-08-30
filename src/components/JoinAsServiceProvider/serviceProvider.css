@@ -1,0 +1,45 @@
+.serviceProvider{
+    width: 100%;
+    height: 326px;
+    background-color: #EDEDFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serviceProviderContainer{
+    width: 1222px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.serviceImage1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceProviderContent{
+    text-align: center;
+}
+.serviceProviderContent h3{ 
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.serviceProviderContent p{ 
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+.serviceProviderContent .joinBtn{
+    margin-top: 35px;
+    width: 248px;
+    height: 43px;
+    color: white;
+    background-color: #000080;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}   
