@@ -30,18 +30,21 @@
     font-weight: 400;
     color: #9C9C9C;
     margin-left: 10px;
+    margin-bottom: 0px;
 }
 
 .serviceHeader h3{
     margin-top: 8px;
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 0px;
 }
 .serviceContent .serviceDetails p{
     font-size: 16px;
     font-weight: 400;
     color: #616161;
     margin-top: 16px;
+    margin-bottom: 0px;
 }   
 
 .serviceIconsContainer{
@@ -60,6 +63,13 @@
     height: 40px;
     background-color: #F5F5F5;
     border-radius: 4px;
+    cursor: pointer;
+}
+.towing:hover img{
+    filter: invert(71%) sepia(7%) saturate(2885%) hue-rotate(117deg) brightness(85%) contrast(96%);
+}
+.towing:hover p{
+    color: #44B49C;
 }
 .serviceicon{
     display: flex;
@@ -69,6 +79,7 @@
     font-size: 12px;
     font-weight: 500;
     margin-left: 8px;
+    margin-bottom: 0px;
 }
 /* -----------------Police Service--------------- */
 .policeService{
@@ -80,6 +91,13 @@
     background-color: #F5F5F5;
     border-radius: 4px;
     margin-left: 8px;
+    cursor: pointer;
+}
+.policeService:hover img{
+    filter: invert(6%) sepia(66%) saturate(7423%) hue-rotate(243deg) brightness(103%) contrast(125%);
+}
+.policeService:hover p{
+    color: #000080;
 }
 .serviceicon{
     display: flex;
@@ -89,6 +107,7 @@
     font-size: 12px;
     font-weight: 500;
     margin-left: 8px;
+    margin-bottom: 0px;
 }
 
 
@@ -102,6 +121,13 @@
     background-color: #F5F5F5;
     border-radius: 4px;
     margin-left: 8px;
+    cursor: pointer;
+}
+.mechanicalService:hover img{
+    filter: invert(55%) sepia(44%) saturate(6551%) hue-rotate(169deg) brightness(97%) contrast(101%);
+}
+.mechanicalService:hover p{
+    color: #009EE1;
 }
 .serviceicon{
     display: flex;
@@ -111,6 +137,7 @@
     font-size: 12px;
     font-weight: 500;
     margin-left: 8px;
+    margin-bottom: 0px;
 }
 
 /* -----------------Medical Care--------------- */
@@ -123,6 +150,13 @@
     background-color: #F5F5F5;
     border-radius: 4px;
     margin-top: 8px;
+    cursor: pointer;
+}
+.medicalCare:hover img{
+    filter: invert(26%) sepia(78%) saturate(1578%) hue-rotate(327deg) brightness(99%) contrast(103%);
+}
+.medicalCare:hover p{
+    color: #DC3444;
 }
 .serviceicon{
     display: flex;
@@ -132,4 +166,5 @@
     font-size: 12px;
     font-weight: 500;
     margin-left: 8px;
+    margin-bottom: 0px;
 }

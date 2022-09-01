@@ -1,9 +1,10 @@
-.navbar{
+.navbarDiv{
     width: 100%;
     height: 96px;
     display: flex;
     justify-content: center;
     background-color: white;
+    align-items: center;
 }
 .navbarContainer{
     width: 1222px;
@@ -19,6 +20,7 @@
     font-size: 14px;
     font-weight: 400;
     margin-right: 48px;
+    margin-bottom: 0;
 }
 .downloadAndGetStarted button{
     width: 125px;
@@ -30,3 +32,12 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+/* @media only screen and (max-width: 600px) {
+   .navbarDiv{
+    width: 100%;
+   }
+   .downloadAndGetStarted{
+    display: none;
+   }
+  } */

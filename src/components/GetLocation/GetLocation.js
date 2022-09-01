@@ -1,7 +1,36 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./getLocation.css"
+import gsap from "gsap"
+import {ScrollTrigger} from "gsap/ScrollTrigger"
+
+
 
 const GetLocation = () => {
+
+gsap.registerPlugin(ScrollTrigger)
+
+useEffect(() => {
+    
+    gsap.fromTo(".getLocationContainer", 
+        {
+            y: 100,
+            opacity: 0
+          },
+          {
+            y: 0,
+            opacity: 1,
+            ease: "ease-in",
+            duration: 2,
+            scrollTrigger: {
+              trigger: ".getLocation",
+              start: "top 10%",
+            }
+          }
+        );
+}, [])
+
+
+
   return (
     <div className='getLocation'>
         <div className="getLocationContainer">
@@ -18,7 +47,7 @@ const GetLocation = () => {
                     <div className="liveTrackingImg">
                         <img src="./images/liveTracking.svg" alt="" />
                     </div>
-                    <h5>Roadside Assistance</h5>
+                    <h5>Live Tracking</h5>
                 </div>
 
 

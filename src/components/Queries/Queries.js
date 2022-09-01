@@ -1,7 +1,34 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./queries.css"
+import gsap from "gsap"
+import {ScrollTrigger} from "gsap/ScrollTrigger"
 
 const Queries = () => {
+
+gsap.registerPlugin(ScrollTrigger)
+
+useEffect(() => {
+        
+gsap.fromTo(".queriesContainer", 
+    {
+        y: 100,
+        opacity: 0
+        },
+        {
+        y: 0,
+        opacity: 1,
+        ease: "ease-in",
+        duration: 2,
+        scrollTrigger: {
+            trigger: ".queries",
+            start: "top 10%",
+        }
+        }
+    );
+}, [])
+    
+    
+
   return (
     <div className='queries'>
         <div className="queriesContainer">

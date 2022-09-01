@@ -24,12 +24,14 @@
 .serviceProviderContent h3{ 
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 0px;
 }
 
 .serviceProviderContent p{ 
     font-size: 16px;
     font-weight: 400;
     margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 

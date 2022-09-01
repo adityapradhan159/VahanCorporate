@@ -3,7 +3,7 @@ import "./navbar.css"
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
+    <div className='navbarDiv'>
         <div className="navbarContainer">
             {/* --------------Vahan Logo-------------------- */}
             <div className="vahanLogo">

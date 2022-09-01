@@ -1,10 +1,40 @@
-import React from 'react'
+import React,{useRef,useEffect} from 'react'
 import "./services.css"
+import gsap from "gsap"
+import {ScrollTrigger} from "gsap/ScrollTrigger"
+
+
 
 const Services = () => {
+
+gsap.registerPlugin(ScrollTrigger)
+
+const yourServiceRef = useRef(null)
+
+useEffect(() => {
+    
+    gsap.fromTo(".yourService", 
+        {
+            y: 100,
+            opacity: 0
+          },
+          {
+            y: 0,
+            opacity: 1,
+            ease: "ease-in",
+            duration: 2,
+            scrollTrigger: {
+              trigger: ".services",
+              start: "top 10%",
+            }
+          }
+        );
+}, [])
+
+
   return (
     <div className='services'>
-        <div className="yourService">
+        <div className="yourService" ref={yourServiceRef}>
             <div className="serviceContent">
                 <div className="roadAssistance">
                     <div className="roadAssistanceImg">

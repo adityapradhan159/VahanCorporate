@@ -29,12 +29,14 @@
     font-weight: 400;
     color: #9C9C9C;
     margin-left: 10px;
+    margin-bottom: 0px;
 }
 
 .locationHeader h3{
     margin-top: 8px;
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 0px;
 }
 
 .locationContent .locationDetails p{
@@ -42,6 +44,7 @@
     font-weight: 400;
     color: #616161;
     margin-top: 16px;
+    margin-bottom: 0px;
 }
 
 .serviceIconsContainer{
@@ -60,8 +63,14 @@
     height: 40px;
     background-color: #F5F5F5;
     border-radius: 4px;
+    cursor: pointer;
 }
-
+.tripStatus:hover img{
+    filter: invert(25%) sepia(25%) saturate(5171%) hue-rotate(228deg) brightness(92%) contrast(88%);
+}
+.tripStatus:hover p{
+    color: #4444B3;
+}
 .serviceicon{
     display: flex;
     align-items: center;
@@ -70,6 +79,7 @@
     font-size: 12px;
     font-weight: 500;
     margin-left: 8px;
+    margin-bottom: 0px;
 }
 
 
@@ -83,8 +93,14 @@
     background-color: #F5F5F5;
     border-radius: 4px;
     margin-left: 8px;
+    cursor: pointer;
 }
-
+.currentLocation:hover img{
+    filter: invert(26%) sepia(78%) saturate(1578%) hue-rotate(327deg) brightness(99%) contrast(103%);
+}
+.currentLocation:hover p{
+    color: #DC3444;
+}
 .serviceicon{
     display: flex;
     align-items: center;
@@ -93,4 +109,5 @@
     font-size: 12px;
     font-weight: 500;
     margin-left: 8px;
+    margin-bottom: 0px;
 }

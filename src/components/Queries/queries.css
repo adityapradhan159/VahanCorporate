@@ -31,18 +31,21 @@
     font-weight: 400;
     color: #9C9C9C;
     margin-left: 10px;
+    margin-bottom: 0px;
 }
 
 .queriesHeader h3{
     margin-top: 8px;
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 0px;
 }
 .queriesContent .queriesDetails p{
     font-size: 16px;
     font-weight: 400;
     color: #616161;
     margin-top: 16px;
+    margin-bottom: 0px;
 }  
 
 
@@ -62,6 +65,13 @@
     height: 40px;
     background-color: #F5F5F5;
     border-radius: 4px;
+    cursor: pointer;
+}
+.callService:hover img{
+    filter: invert(32%) sepia(100%) saturate(322%) hue-rotate(100deg) brightness(92%) contrast(99%);
+}
+.callService:hover p{
+    color: #157347;
 }
 .serviceicon{
     display: flex;
@@ -71,6 +81,7 @@
     font-size: 12px;
     font-weight: 500;
     margin-left: 8px;
+    margin-bottom: 0px;
 }
 
 
@@ -84,6 +95,13 @@
     background-color: #F5F5F5;
     border-radius: 4px;
     margin-left: 8px;
+    cursor: pointer;
+}
+.chatService:hover img{
+    filter: invert(25%) sepia(25%) saturate(5171%) hue-rotate(228deg) brightness(92%) contrast(88%);
+}
+.chatService:hover p{
+    color: #4444B3;
 }
 .serviceicon{
     display: flex;
@@ -93,4 +111,5 @@
     font-size: 12px;
     font-weight: 500;
     margin-left: 8px;
+    margin-bottom: 0px;
 }
