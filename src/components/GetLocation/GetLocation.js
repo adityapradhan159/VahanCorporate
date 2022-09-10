@@ -7,27 +7,27 @@ import {ScrollTrigger} from "gsap/ScrollTrigger"
 
 const GetLocation = () => {
 
-// gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger)
 
-// useEffect(() => {
+useEffect(() => {
     
-//     gsap.fromTo(".getLocationContainer", 
-//         {
-//             y: 100,
-//             opacity: 0
-//           },
-//           {
-//             y: 0,
-//             opacity: 1,
-//             ease: "ease-in",
-//             duration: 2,
-//             scrollTrigger: {
-//               trigger: ".getLocation",
-//               start: "top 10%",
-//             }
-//           }
-//         );
-// }, [])
+    gsap.fromTo(".getLocationContainer", 
+        {
+            y: 100,
+            opacity: 0
+          },
+          {
+            y: 0,
+            opacity: 1,
+            ease: "ease-in",
+            duration: 2,
+            scrollTrigger: {
+              trigger: ".getLocation",
+              start: "top 10%",
+            }
+          }
+        );
+}, [])
 
 
 

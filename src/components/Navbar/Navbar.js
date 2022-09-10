@@ -1,7 +1,10 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./navbar.css"
 
 const Navbar = () => {
+
+  const [showNavMenu,setShowNavMenu] = useState(false)
+
   return (
     <div className='navbarDiv'>
         <div className="navbarContainer">
@@ -15,10 +18,13 @@ const Navbar = () => {
             </div>
 
             {/* -------------Get Started Button-------------- */}
-            <div className="menuBtn">
+            <div className="menuBtn" onClick={() => setShowNavMenu(!showNavMenu)}>
               <img src="./images/navMenu.svg" alt="" />
             </div>
-            <div className="downloadAndGetStarted">
+
+
+            <div className={showNavMenu ? "downloadAndGetStarted expanded" : "downloadAndGetStarted"}>
+              <img src="./images/close.svg" alt="" onClick={() => setShowNavMenu(false)} className="closeMenu"/>
                 <p>Go to Dashboard</p>
                 <button>Get Started</button>
             </div>

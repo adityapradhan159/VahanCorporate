@@ -5,27 +5,27 @@ import {ScrollTrigger} from "gsap/ScrollTrigger"
 
 const Queries = () => {
 
-// gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger)
 
-// useEffect(() => {
+useEffect(() => {
         
-// gsap.fromTo(".queriesContainer", 
-//     {
-//         y: 100,
-//         opacity: 0
-//         },
-//         {
-//         y: 0,
-//         opacity: 1,
-//         ease: "ease-in",
-//         duration: 2,
-//         scrollTrigger: {
-//             trigger: ".queries",
-//             start: "top 10%",
-//         }
-//         }
-//     );
-// }, [])
+gsap.fromTo(".queriesContainer", 
+    {
+        y: 100,
+        opacity: 0
+        },
+        {
+        y: 0,
+        opacity: 1,
+        ease: "ease-in",
+        duration: 2,
+        scrollTrigger: {
+            trigger: ".queries",
+            start: "top 10%",
+        }
+        }
+    );
+}, [])
     
     
 
