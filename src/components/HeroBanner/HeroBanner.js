@@ -9,7 +9,7 @@ const HeroBanner = () => {
         </div>
 
         <div className="heroImgMobile">
-        <img src="./images/heroBannerMb.svg" alt="" />
+        <img src="./images/heroBannerMb.png" alt="" />
         </div>
 
         <div className="heroContent">
