@@ -10,6 +10,11 @@ const Footer = () => {
                 <img src="./images/VahanLogo.svg" alt="" />
             </div>
 
+            <div className="footerLogo-mb">
+                <img src="./images/VahanLogoMb.svg" alt="" />
+            </div>
+
+            <div className="footerLinkContainer">
             {/* ----------About---------------- */}
             <div className="aboutContainer">
                 <div className="aboutHeader">
@@ -31,7 +36,7 @@ const Footer = () => {
             </div>
 
             {/* ----------More------------ */}
-            <div className="aboutContainer">
+            <div className="socialMediaContainer">
                 <div className="aboutHeader">
                     <h5>Social Media</h5>
                     <div className="footerIconContainer">
@@ -56,9 +61,9 @@ const Footer = () => {
 
                 <button>Subscribe</button>
             </div>
-
         </div>
     </div>
+</div>
   )
 }
 

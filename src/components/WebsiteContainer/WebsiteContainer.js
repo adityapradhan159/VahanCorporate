@@ -22,7 +22,7 @@ const WebsiteContainer = () => {
          <HowToStart/>
          <ServiceProvider/>
        <Faq/>
-         {/*<Footer/> */}
+         <Footer/>
     </>
   )
 }

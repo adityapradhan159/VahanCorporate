@@ -13,7 +13,14 @@
     display: flex;
     justify-content: space-between;
 }
-
+.footerLogo{
+    width: 20%;
+}
+.footerLinkContainer{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
 .aboutHeader h5{
     font-size: 20px;
     font-weight: 700;
@@ -26,7 +33,18 @@
     margin-top: 20px;
     margin-bottom: 0px;
 }
-
+.socialMediaContainer h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.socialMediaContainer p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #272727;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 .footerIconContainer{
     margin-top: 20px;
     display: flex;
@@ -66,4 +84,52 @@
     font-weight: 700;
     border-radius: 20px;
     background-color: transparent;
+}
+.footerLogo-mb{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .footerLogo{
+        display: none;
+    }
+    .footerLogo-mb{
+        display: flex;
+    }
+    .footer{
+        height: 455px;
+    }
+    .footerContainer{
+        width: 90%;
+        height: 100%;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .footerLinkContainer{
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 24px;
+    }
+    .aboutContainer{
+        width: 50%;
+    }
+    .aboutHeader h5{
+        font-size: 16px;
+    }
+    .aboutHeader p{
+        font-size: 12px;
+    }
+    .subscribeContainer{
+        width: 50%;
+    }
+    .subscribeContainer h5{
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    .subscribeContainer input{
+        width: 100%;
+    }
+    
 }
