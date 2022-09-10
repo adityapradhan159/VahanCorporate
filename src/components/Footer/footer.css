@@ -119,8 +119,12 @@
     .aboutHeader p{
         font-size: 12px;
     }
+    .socialMediaContainer{
+        margin-top: 32px;
+    }
     .subscribeContainer{
         width: 50%;
+        margin-top: 32px;
     }
     .subscribeContainer h5{
         font-size: 16px;
@@ -130,6 +134,9 @@
     }
     .subscribeContainer input{
         width: 100%;
+        font-size: 12px;
     }
-    
+    .subscribeContainer button{
+        font-size: 12px;
+    }
 }

@@ -15,7 +15,9 @@ const HowToStart = () => {
                 <div className="stepDivider">
                     <img src="./images/stepDivider.svg" alt="" />
                 </div>
-                
+                <div className="stepDividerMb">
+                    <img src="./images/LineMb.svg" alt="" />
+                </div>
                 <div className="howToStartStep">
                     <div className="stepIcon">
                         <img src="./images/form.svg" alt="" />
