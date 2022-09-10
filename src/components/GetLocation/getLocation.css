@@ -111,3 +111,36 @@
     margin-left: 8px;
     margin-bottom: 0px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .getLocationContainer{
+        width: 90%;
+        height: 890px;
+        justify-content: center;
+    }
+    .getLocationImg{
+        display: none;
+    }
+    .liveTracking h5{
+        font-size: 16px;
+      
+    }
+    .locationContent{
+        align-items: center;
+    }
+    .locationHeader{
+        text-align: center;
+    }
+    .locationHeader h3{
+       font-size: 24px;
+    }
+    .tripStatus{
+        width: 100%;
+    }
+    .currentLocation{
+        width: 100%;
+        margin-top: 8px;
+        margin-left: 0px;
+    }
+}

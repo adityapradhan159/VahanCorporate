@@ -47,6 +47,9 @@ useEffect(() => {
                     <h3>At your service.<br/>
                         Anytime! Anywhere!</h3>
                 </div>
+                <div className="truckImg-mb">
+                    <img src="./images/truck-mb.svg" alt="" />
+                </div>
 
                 <div className="serviceDetails">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet </p>

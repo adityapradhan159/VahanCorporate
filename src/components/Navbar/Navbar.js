@@ -10,8 +10,14 @@ const Navbar = () => {
                 <img src="./images/VahanLogo.svg" alt="" />
             </div>
 
-            {/* -------------Get Started Button-------------- */}
+            <div className="vahanLogoMobile">
+                <img src="./images/vahanLogoMb.svg" alt="" />
+            </div>
 
+            {/* -------------Get Started Button-------------- */}
+            <div className="menuBtn">
+              <img src="./images/navMenu.svg" alt="" />
+            </div>
             <div className="downloadAndGetStarted">
                 <p>Go to Dashboard</p>
                 <button>Get Started</button>

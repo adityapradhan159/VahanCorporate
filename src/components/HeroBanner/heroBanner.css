@@ -66,3 +66,42 @@
     font-weight: 700;
     font-size: 14px;
 }
+.heroImgMobile{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .heroBanner{
+        height: 296px;
+    }
+    .heroImg{
+        display: none;
+    }
+    .heroImgMobile{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .heroImgMobile img{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .heroBanner::after{
+        height: 296px;
+    }
+    .heroContent h1{
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0px 24px;
+    }
+    .heroContentButtons button{
+        width: 156px;
+        height: 43px;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+    }
+}

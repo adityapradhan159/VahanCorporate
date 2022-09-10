@@ -8,6 +8,10 @@ const HeroBanner = () => {
             <img src="./images/heroImg.png" alt="" />
         </div>
 
+        <div className="heroImgMobile">
+        <img src="./images/heroBannerMb.svg" alt="" />
+        </div>
+
         <div className="heroContent">
             <h1>Ensuring Safer Trips than Before</h1>
             <p>Maintain and manage your trucks with ease by enabling power of automated system </p>

@@ -113,3 +113,46 @@
     margin-left: 8px;
     margin-bottom: 0px;
 }
+
+.serviceImg-mb{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .serviceImg{
+        display: none;
+    }
+    .serviceImg-mb{
+        display: flex;
+    }
+    .queries{
+        height: 910px;
+    }
+    .queriesContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .queriesContent{
+        width: 100%;
+        align-items: center;
+    }
+    .vahanMitra h5{
+        font-size: 16px;
+
+    }
+    .queriesHeader{
+        width: 247px;
+        text-align: center;
+    }
+    .queriesHeader h3{
+        font-size: 24px;
+    }
+    .callService{
+        width: 48%;
+    }
+    .chatService{
+        width: 48%;
+    }
+}

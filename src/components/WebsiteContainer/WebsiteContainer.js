@@ -14,15 +14,15 @@ const WebsiteContainer = () => {
   return (
     <>
         <Navbar/>
-        <HeroBanner/>
+       <HeroBanner/>
         <VahanDetails/>
-        <Services/>
+         <Services/>
         <GetLocation/>
-        <Queries/>
-        <HowToStart/>
-        <ServiceProvider/>
-        <Faq/>
-        <Footer/>
+       <Queries/>
+         <HowToStart/>
+         <ServiceProvider/>
+       <Faq/>
+         {/*<Footer/> */}
     </>
   )
 }

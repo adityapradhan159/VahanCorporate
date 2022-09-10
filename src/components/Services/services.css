@@ -168,3 +168,58 @@
     margin-left: 8px;
     margin-bottom: 0px;
 }
+.truckImg-mb{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .yourService{
+        justify-content: center;
+        width: 100%;
+        height: 952px;
+    }
+    .serviceContent{
+        align-items: center;
+        width: 90%;
+    }
+    .serviceHeader{
+        text-align: center;
+    }
+    .roadAssistance h5{
+        font-size: 16px;
+        
+    }
+    .truckImg-mb{
+        display: flex;
+    }
+    .serviceHeader h3{
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .serviceIconsContainer{
+       width: 100%;
+        justify-content: space-between;
+    }
+    .towing{
+        width: 48% !important;
+       
+    }
+    .policeService{
+        width: 48% !important;
+       ;
+        margin-left: 0px;
+    }
+    .mechanicalService{
+        width: 48% !important;
+       
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    .medicalCare{
+        width:48% !important;
+       
+    }
+    .serviceImg{
+        display: none;
+    }
+}

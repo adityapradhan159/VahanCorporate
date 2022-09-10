@@ -72,9 +72,11 @@
     flex-direction: column;
     z-index: 2;
 }
+.stepInfo {
+    text-align: center;
+}
 
-
-.howToStartStep h5{
+.stepInfo h5{
     color: white;
     margin-top: 20px;
     font-size: 20px;
@@ -82,11 +84,81 @@
     margin-bottom: 0px;
 }
 
-.howToStartStep p{
+.stepInfo p{
     text-align: center;
     margin: 30px 20px 0px 20px;
     font-size: 16px;
     font-weight: 400;
     color: white;
     margin-bottom: 0px;
+}
+@media only screen and (max-width: 600px) {
+    .howToStart{
+        height: 754px;
+        
+    }
+    .howToStartContainer{
+        width: 90%;
+        height: 100%;
+    }
+    .howToStartStepsContainer{
+        flex-direction: column;
+    }
+    .stepDivider{
+        display: none;
+    }
+    .howToStartContainer h3{
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 0px;
+        text-align: center;
+        margin-top: 64px;
+    }
+    .startContent{
+        width: 100%;
+        font-size: 16px;
+    }
+    .howToStartContainer .getStartedBtn{
+        width: 156px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .howToStartStep{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .howToStartStepsContainer{
+        margin-top: 40px;
+    }
+
+    .stepInfo h5{
+        color: white;
+        margin-top: 25px;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 0px;
+        margin-left: 20px;
+    }
+    /* .stepIcon{
+        width: 40px;
+        height: 40px;
+    } */
+    .stepInfo p{
+        text-align: left;
+       margin-top: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        margin-bottom: 0px;
+    }
+    .howToStartStep{
+        width: 346px;
+        height: 94px;
+        margin-top: 20px;
+       
+    }
 }

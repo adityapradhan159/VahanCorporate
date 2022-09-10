@@ -24,3 +24,23 @@
     color: #616161;
     margin-top: 8px;
 }
+
+@media only screen and (max-width: 600px) {
+    .vahanDetails{
+        width: 100%;
+        height: auto;
+        margin-bottom: 65px;
+      
+    }
+    .vahanDetailsContainer{
+        margin-top: 33px;
+        width: 90%;
+        flex-direction: column;
+    }
+    .vahanDetailsContainer h4{
+        margin-top: 32px;
+    }
+    .vahanDetailsContainer p{
+        margin-bottom: 0px;
+    }
+}

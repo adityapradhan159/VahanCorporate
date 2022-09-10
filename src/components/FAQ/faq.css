@@ -51,3 +51,33 @@
    color: #616161;
    margin-bottom: 0px;
 }
+
+@media only screen and (max-width: 600px) {
+    .faq{
+        width: 100%;
+        height: auto;
+        background-color: #FAFAFA;
+        display: flex;
+        justify-content: center;
+      
+    }
+    
+    .faqContainer{
+        width: 90%;
+        display: flex;
+        margin: 72px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .faqContainer h2{
+        font-size: 24px;
+      
+    }
+    .faqQuestions h4{
+       font-size: 16px;
+    }
+    .faqAnswers p{
+        font-size: 14px;
+    }
+}
