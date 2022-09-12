@@ -26,7 +26,6 @@ useEffect(() => {
             scrollTrigger: {
               trigger: ".services",
               start: "top 20%",
-              markers:true
             }
           }
         );
