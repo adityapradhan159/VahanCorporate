@@ -119,6 +119,9 @@
     .getLocation{
         height: 953px;
     }
+    .getLocationImg-mb{
+        display: flex;
+    }
     .getLocationContainer{
         width: 90%;
         height: 100%;
