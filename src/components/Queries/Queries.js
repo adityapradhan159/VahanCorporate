@@ -21,7 +21,7 @@ gsap.fromTo(".queriesContainer",
         duration: 2,
         scrollTrigger: {
             trigger: ".queries",
-            start: "top 10%",
+            start: "top 20%",
         }
         }
     );

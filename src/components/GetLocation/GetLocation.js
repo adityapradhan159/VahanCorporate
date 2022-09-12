@@ -23,7 +23,7 @@ useEffect(() => {
             duration: 2,
             scrollTrigger: {
               trigger: ".getLocation",
-              start: "top 10%",
+              start: "top 20%",
             }
           }
         );
@@ -53,6 +53,10 @@ useEffect(() => {
 
                 <div className="locationHeader">
                     <h3>Get the location of your trips from anywhere</h3>
+                </div>
+
+                <div className="getLocationImg-mb">
+                    <img src="./images/LocationGraphic.svg" alt="" />
                 </div>
 
                 <div className="locationDetails">

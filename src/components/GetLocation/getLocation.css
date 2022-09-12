@@ -111,12 +111,17 @@
     margin-left: 8px;
     margin-bottom: 0px;
 }
-
+.getLocationImg-mb{
+    display: none;
+}
 
 @media only screen and (max-width: 600px) {
+    .getLocation{
+        height: 953px;
+    }
     .getLocationContainer{
         width: 90%;
-        height: 890px;
+        height: 100%;
         justify-content: center;
     }
     .getLocationImg{
